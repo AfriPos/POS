@@ -1,0 +1,1 @@
+[09-Dec-2023 17:58:16 UTC] PHP Warning:  Attempt to read property "access_token" on null in /home/afriposc/test1.afripos.co.ke/stkpush/access_token.php on line 20

@@ -1,0 +1,6 @@
+{
+    "require": {
+        "tecnickcom/tcpdf": "^6.6",
+        "zendframework/zend-barcode": "^2.8"
+    }
+}

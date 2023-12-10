@@ -1,0 +1,183 @@
+.tableFixHead{
+    overflow: scroll;
+    height:520px;
+}
+.tableFixHead thead h{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+table{
+    border-collapse: collapse;
+}
+th,td{
+    padding: 8px 16px;
+}
+th{
+    background: #eee;
+}
+.breadcrumb-item a {
+    position: relative;
+    display: inline-block;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.breadcrumb-item a::after {
+    content: "";
+    position: absolute;
+    bottom: -0.5px;
+    left: 50%;
+    width: 0;
+    height: 1px;
+    background-color: #007bff;
+    transition: width 0.3s ease;
+    transform: translateX(-50%);
+}
+
+.breadcrumb-item a:hover::after {
+    width: 100%;
+}
+.dropdown-menu-lg {
+min-width: 25%;
+max-width: 25%;
+height: calc(100vh - 56px); /* Adjusted height to subtract the navbar height */
+top: 56px; /* Set the top position to the navbar height */
+left: auto;
+right: 0;
+bottom: auto;
+transform: translateX(0);
+border-radius: 0;
+overflow-y: auto; /* Added overflow-y property to enable vertical scrolling */
+}
+
+/* Added CSS to set a maximum height for the notification items */
+.dropdown-menu-lg .dropdown-item {
+max-height: 70px;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+}
+
+/* Added CSS to make the header permanent at the top */
+.dropdown-menu-lg .dropdown-header {
+position: sticky;
+top: 0;
+background-color: #f8f9fa;
+padding: 8px 16px;
+font-weight: bold;
+}
+
+/* styles.css */
+
+.custom-sidebar {
+background-color: #FFF;
+}
+
+.custom-sidebar .brand-link {
+color: #333;
+}
+
+.custom-sidebar .brand-link:hover {
+color: rgb(255, 255, 255);
+}
+
+.custom-sidebar .user-panel .info a {
+color: #333;
+}
+
+.custom-sidebar .sidebar-search input::placeholder {
+color: #999;
+}
+
+.custom-sidebar .nav-link {
+color: #333;
+}
+
+.custom-sidebar .nav-link:hover {
+background-color: rgb(255, 255, 255);
+color: #FFF;
+}
+
+.custom-sidebar .nav-link.active {
+background-color: #DDD;
+color: #333;
+}
+
+.custom-sidebar .nav-link i {
+color: #999;
+}
+
+.custom-sidebar .nav-link:hover i,
+.custom-sidebar .nav-link.active i {
+color: #333;
+}
+
+.custom-sidebar .user-panel .image img {
+border-radius: 50%;
+}
+
+.custom-sidebar .user-panel .info {
+margin-left: 10px;
+}
+
+.custom-sidebar .sidebar-search .input-group {
+margin-bottom: 10px;
+}
+
+.custom-sidebar .nav-treeview {
+margin-left: 10px;
+}
+
+.custom-sidebar .nav-treeview .nav-link {
+padding-left: 30px;
+color: #333;
+}
+
+.custom-sidebar .nav-treeview .nav-link i {
+margin-right: 10px;
+color: #999;
+}
+
+.custom-sidebar .nav-treeview .nav-link:hover,
+.custom-sidebar .nav-treeview .nav-link.active {
+color: rgb(255, 255, 255);
+}
+
+
+
+
+.login100-form-title {
+    color: white; /* Set the text color to white */
+    text-align: center; /* Center the text */
+}
+
+.login100-more {
+    position: relative;
+    background-size: cover;
+    text-align: center;
+    color: white; /* Set the text color to white */
+    padding: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.login100-more p {
+    margin-bottom: 0;
+}
+
+.on-image{
+    color: white; /* Set the text color to white */
+}
+.copyright {
+    position: absolute;
+    bottom: 20px; /* Adjust this value to change the vertical position */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
